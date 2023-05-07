@@ -26,4 +26,11 @@ public class Magazine extends Document {
     public void setReleaseMonth(int releaseMonth) {
         this.releaseMonth = releaseMonth;
     }
+    public void ShowMagazine(){
+        System.out.println("Ma tai lieu: "+getCodeDocument());
+        System.out.println("Ten xuat ban: "+getNamePublication());
+        System.out.println("So xuat ban: "+getEdition());
+        System.out.println("So phat hanh: "+getIssueNumber());
+        System.out.println("Thang phat hanh: "+getReleaseMonth());
+    }
 }

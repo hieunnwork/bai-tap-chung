@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="769342df-4f2f-4814-9937-86a50a84a8be" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/bai-tap-chung.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+=======
+    <list default="true" id="e023b24d-fc5d-417a-bbe1-bdb9495ae671" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/bai-tap-chung.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+>>>>>>> 8bc057ecf084c308719b1649dfef9604193428f0
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -23,7 +30,11 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectId" id="2PQEUUeq4kZ4FoH18BUUzdy1ISz" />
+=======
+  <component name="ProjectId" id="2PSHeWEwScVpAP2X7CjJxalp9n0" />
+>>>>>>> 8bc057ecf084c308719b1649dfef9604193428f0
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,6 +43,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+<<<<<<< HEAD
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/admin/Desktop/Java/bai-tap-chung"
   }
@@ -58,6 +70,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683380921345</updated>
+=======
+    "last_opened_file_path": "/Users/user/bai-tap-chung"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e023b24d-fc5d-417a-bbe1-bdb9495ae671" name="Changes" comment="" />
+      <created>1683443657774</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683443657774</updated>
+>>>>>>> 8bc057ecf084c308719b1649dfef9604193428f0
     </task>
     <servers />
   </component>

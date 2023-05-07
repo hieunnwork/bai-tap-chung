@@ -13,7 +13,8 @@ public class Main {
             try {
                 System.out.println("Quan ly tai lieu");
                 System.out.println("1. Nhap thong tin cho tai lieu");
-                System.out.println("3.Tim kiem thong tin theo nha xuat ban");
+                System.out.println("2. Xuat Thong tin toan bo tai lieu");
+                System.out.println("3. Tim kiem thong tin theo nha xuat ban");
                 System.out.println("Moi nhap: ");
                 int input1 = scanner.nextInt();
                 if (input1 < 1 || input1 > 3) {
@@ -78,10 +79,16 @@ public class Main {
                         int ngayPhatHanh = scanner14.nextInt();
                         managementDocument.ImportNewspaper(maTaiLieuB, tenNhaXuatBanB, soBanPhatHanhB, ngayPhatHanh);
                     }
-                } else if (input1 == 3) {
+                } else if (input1==2) {
+                    managementDocument.ShowBookInformation();
+                    managementDocument.ShowMagazineInformation();
+                    managementDocument.ShowNewsletterInformation();
+                }
+                else if (input1 == 3) {
                     System.out.println("Nhập thông tin nhà xuất bản cần tìm kiếm");
                     String keyWord = scanner.next();
                     managementDocument.searchDocument(keyWord);
+
                 }
 
             } catch (InputMismatchException e) {
