@@ -23,4 +23,11 @@ public class Book extends Document{
     public void setPageNumber(int pageNumber) {
         this.pageNumber = pageNumber;
     }
+    public void ShowBook() {
+        System.out.println("Ma tai lieu: " + getCodeDocument());
+        System.out.println("Ten xuat ban: " + getNamePublication());
+        System.out.println("So xuat ban: " + getEdition());
+        System.out.println("Ten tac gia: " + getNameAuthor());
+        System.out.println("So trang: " + getPageNumber());
+    }
 }

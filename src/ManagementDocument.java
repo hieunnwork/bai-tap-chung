@@ -11,4 +11,19 @@ public class ManagementDocument {
         listMagazines = new ArrayList<>();
         listNewspapers = new ArrayList<>();
     }
+    public void ShowBookInformation(){
+        for (int i = 0; i < listBooks.size(); i++) {
+            listBooks.get(i).ShowBook();
+        }
+    }
+    public void ShowMagazineInformation(){
+        for (int i = 0; i < listMagazines.size(); i++) {
+            listMagazines.get(i).ShowMagazine();
+        }
+    }
+    public void ShowNewsletterInformation(){
+        for (int i = 0; i < listNewspapers.size(); i++) {
+            listNewspapers.get(i).ShowNewpaper();
+        }
+    }
 }
