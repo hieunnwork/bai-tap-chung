@@ -58,4 +58,19 @@ public class ManagementDocument {
         }
     }
 
+    public void ImportBook (String inputCodeDocument, String inputNamePublication, int inputEdition, String inputNameAuthor, int inputPageNumber){
+        Book book = new Book(inputCodeDocument,inputNamePublication,inputEdition,inputNameAuthor,inputPageNumber);
+        listBooks.add(book);
+        System.out.println("Nhap thanh cong");
+    }
+    public void ImportMagazine (String inputCodeDocument, String inputNamePublication, int inputEdition, int inputIssueNumber, int inputReleaseMonth){
+        Magazine magazine = new Magazine(inputCodeDocument,inputNamePublication,inputEdition,inputIssueNumber,inputReleaseMonth);
+        listMagazines.add(magazine);
+        System.out.println("Nhap thanh cong");
+    }
+    public void ImportNewspaper (String inputCodeDocument, String inputNamePublication, int inputEdition, int inputDateRelease){
+        NewPaper newPaper = new NewPaper(inputCodeDocument,inputNamePublication,inputEdition,inputDateRelease);
+        listNewspapers.add(newPaper);
+        System.out.println("Nhap thanh cong");
+    }
 }
