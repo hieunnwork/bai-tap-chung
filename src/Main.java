@@ -10,6 +10,7 @@ public class Main {
             try {
                 System.out.println("Quan ly tai lieu");
                 System.out.println("1. Nhap thong tin cho tai lieu");
+                System.out.println("2. Xuat Thong tin toan bo tai lieu");
                 System.out.println("Moi nhap: ");
                 int input1 = scanner.nextInt();
                 if (input1 < 1 || input1 > 1) {
@@ -78,6 +79,10 @@ public class Main {
                         int ngayPhatHanh = scanner14.nextInt();
                         managementDocument.ImportNewspaper(maTaiLieuB,tenNhaXuatBanB,soBanPhatHanhB,ngayPhatHanh);
                     }
+                } else if (input1==2) {
+                    managementDocument.ShowBookInformation();
+                    managementDocument.ShowMagazineInformation();
+                    managementDocument.ShowNewsletterInformation();
                 }
 
             }catch (InputMismatchException e){
